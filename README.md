@@ -14,7 +14,7 @@ In this article we describe the design of the environment, followed by how to us
 
 ### Environment Design:
 
-1. The design is based on [https://github.com/openai/gym](OpenGym standards).
+1. The design is based on [OpenGym standards](https://github.com/openai/gym]).
 2. Variants possible using parameterized settings
 3. Two variants possible: 
 4. Study of noise in RL settings is of prime importance. Noise can be added to the tool-wear measurement. This allows for training robust agents.
