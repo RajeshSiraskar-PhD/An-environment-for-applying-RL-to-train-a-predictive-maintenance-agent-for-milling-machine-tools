@@ -1,7 +1,8 @@
 ## An Environment for applying Reinforcement Learning to train a Predictive Maintenance Agent for Milling Machine Tools
 - Author: Rajesh Siraskar
 - Date: 11-Apr-2025
-- Download the environmment software from: https://doi.org/10.5281/zenodo.15168512
+- Download the environment RL Milling Environment code from > [⬇️](https://doi.org/10.5281/zenodo.15168512)
+- Or visit [https://doi.org/10.5281/zenodo.15168512](https://doi.org/10.5281/zenodo.15168512)
 - Environment DOI: 10.5281/zenodo.15168512  
 
 Reinforcement Learning (RL) is a biologically inspired, autonomous machine learning method. RL algorithms can help generate optimal predictive maintenance (PdM) policies for complex industrial systems. 
