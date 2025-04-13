@@ -24,6 +24,9 @@ In this article we describe the design of the environment, followed by how to us
    - The noise affects the tool replacement decision (solid blue line) around the replacement threshold (dotted red line).
    - The human preventive maintenance policy replaces the tool if the wear exceeds the threshold and this decision boundary oscillates due to the noise.
 
+#### 15 variants that were implemented for the research in [article](https://link.springer.com/article/10.1007/s42452-025-06613-1)
+![15-variants](https://github.com/RajeshSiraskar-PhD/An-environment-for-applying-RL-to-train-a-predictive-maintenance-agent-for-milling-machine-tools/blob/main/15_Variants_Small.png)
+
 #### Variant examples:
 
 **Uni-variate state with no noise or breakdown**:
