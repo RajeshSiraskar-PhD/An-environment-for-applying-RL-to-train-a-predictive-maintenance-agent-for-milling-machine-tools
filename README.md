@@ -16,11 +16,20 @@ In this article we describe the design of the environment, followed by how to us
 
 1. The design is based on [OpenGym standards](https://github.com/openai/gym]).
 2. Variants possible using parameterized settings
-3. Two variants possible: 
-4. Study of noise in RL settings is of prime importance. Noise can be added to the tool-wear measurement. This allows for training robust agents.
-5. Two levels of noise possible using a Gaussian distribution: Low: Order 1e-3 i.e. (0.0, 0.001] and High: Order 1e-2, (0.0, 0.01]. Since the tool wear is less than 0.24 mm, this adds significant perturbations.
-6. The noise affects the tool replacement decision (solid blue line) around the replacement threshold (dotted red line).
-7. The human preventive maintenance policy replaces the tool if the wear exceeds the threshold and this decision boundary oscillates due to the noise.
-8. 
+3. Study of noise in RL settings is of prime importance. Noise can be added to the tool-wear measurement. This allows for training robust agents.
+4. Variant combination possibility: 
+   - Two levels of noise possible using a Gaussian distribution: Low: Order 1e-3 i.e. (0.0, 0.001] and High: Order 1e-2, (0.0, 0.01]. Since the tool wear is less than 0.24 mm, this adds significant perturbations.
+   - Chance of break-down: None, low and high probability
+5. See sample images below of the variant and the impact on training the RL agent.
+   - The noise affects the tool replacement decision (solid blue line) around the replacement threshold (dotted red line).
+   - The human preventive maintenance policy replaces the tool if the wear exceeds the threshold and this decision boundary oscillates due to the noise.
 
+#### Variant examples:
+
+**Uni-variate state with no noise or breakdown**:
+![Univariate](https://github.com/RajeshSiraskar-PhD/An-environment-for-applying-RL-to-train-a-predictive-maintenance-agent-for-milling-machine-tools/blob/main/PHM-C06.%20Variant%20Univariate%20state%2C%20high-noise%20and%20high%20chance%20of%20breakdown.webp)
+
+
+**Multi-variate state with no noise or breakdown**:
  ![Multivariate state with no noise or breakdown:](https://github.com/RajeshSiraskar-PhD/An-environment-for-applying-RL-to-train-a-predictive-maintenance-agent-for-milling-machine-tools/blob/main/PHM-C01.%20Variant%20Multivariate%20state%2C%20No%20noise%20or%20breakdown.webp)
+
